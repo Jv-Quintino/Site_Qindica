@@ -7,8 +7,19 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
+    background: linear-gradient(135deg, #ffffff, #d9e2ec);
     color: #333;
     line-height: 1.6;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: var(--primary-color);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 header {
@@ -47,7 +58,9 @@ section {
 }
 
 #cta .btn:hover {
-    background-color: #ff851b;
+    background-color: #22f30f;
+    transform: scale(1.15);
+    transition: transform 0.2s;
 }
 
 footer {
